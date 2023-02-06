@@ -26,6 +26,29 @@ To be able to check out [Windows/386 dark mode](github)!
 
 Although Windows/386 can be installed on a "modern" DOS (like MS-DOS 5), we will stick to the real experience here. Therefore we assume a PC built by Compaq and we will install an appropriate DOS version, even if comes without an installer. This makes installing DOS a little more cumbersome, but will give the real feeling!
 
+1. MS-DOS 3.31 boot
+2. Start fdisk
+3. Create primary partition
+4. reboot
+5. format c: /s
+6. md c:\DOS
+7. copy *.* c:\dos
+8. copy con c:\config.sys
+9. country=044,,c:\dos\country.sys
+lastdrive=z
+shell=c:\dos\command.com c:\dos /p
+10. ^Z
+11. copy con c:\autoexec.bat
+12. path c:\dos;c:\
+mode con codepage select=850
+keyb gr,,c:\dos\keyboard.sys
+prompt $P$G
+^Z
+13. reboot
+14. 
+
+
+
 1. MS-DOS Compaq OEM installation floppy disk image
 Version 3.30 will be great, as MS-DOS adds support for 1.44'' floppy drives and extended hard drive partitions by this version.
 Version 3.31 was OEM-only, adding support for hard drives with up to 512MB.
