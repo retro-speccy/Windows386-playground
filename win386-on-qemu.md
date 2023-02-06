@@ -17,6 +17,13 @@ To be able to check out [Windows/386 dark mode](github)!
 
 ## Prerequisites
 
+### QEMU
+
+* [Install CMake]https://cmake.org/install/
+* [Install qemu]
+
+### DOS
+
 Although Windows/386 can be installed on a "modern" DOS (like MS-DOS 5), we will stick to the real experience here. Therefore we assume a PC built by Compaq and we will install an appropriate DOS version, even if comes without an installer. This makes installing DOS a little more cumbersome, but will give the real feeling!
 
 1. MS-DOS Compaq OEM installation floppy disk image
