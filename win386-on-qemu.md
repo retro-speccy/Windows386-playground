@@ -34,8 +34,7 @@ Although Windows/386 can be installed on a "modern" DOS (like MS-DOS 5), we will
 6. md c:\DOS
 7. copy *.* c:\dos
 8. copy con c:\config.sys
-9. country=044,,c:\dos\country.sys
-lastdrive=z
+9. country=049,,c:\dos\country.sys
 shell=c:\dos\command.com c:\dos /p
 10. ^Z
 11. copy con c:\autoexec.bat
@@ -45,8 +44,20 @@ keyb gr,,c:\dos\keyboard.sys
 prompt $P$G
 ^Z
 13. reboot
-14. 
+14. Ctrl-Alt-2
+15. change floppy0 path/to/win/drive/1
+Table:
+Setup, Displays 1 | Disk 1
+Displays 2, Utilities 1 | Disk 2
+Utilities 2, Fonts | Disk 3
+Applications | Disk 4
+16. rebott
+17. Start with qemu command liine without floppy disk
+18. win386
+19. enjoy!
+20. 
 
+Ctrl-Alt-2, q
 
 
 1. MS-DOS Compaq OEM installation floppy disk image
