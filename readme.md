@@ -12,7 +12,7 @@ Further reading:
 
 ## Instructions
 
-1. [Virtual PC](https://github.com/retro-speccy/Windows386-playground/setup-virtual-pc)
-2. [MS-DOS](https://github.com/retro-speccy/Windows386-playground/msdos330-setup)
-3. [Windows/386](https://github.com/retro-speccy/Windows386-playground/win211386-setup)
+1. [Virtual PC](https://github.com/retro-speccy/Windows386-playground/setup-virtual-pc.md)
+2. [MS-DOS](https://github.com/retro-speccy/Windows386-playground/msdos330-setup.md)
+3. [Windows/386](https://github.com/retro-speccy/Windows386-playground/win211386-setup.md)
 4.
