@@ -57,4 +57,4 @@ Before beginning to install MS-DOS and Windows/386, let's switch the virtual PC 
 
 # Next step
 
-[Now it's time to install MS-DOS!](https://github.com/retro-speccy/Windows386-playground/msdos330-setup)
+[Now it's time to install MS-DOS!](https://github.com/retro-speccy/Windows386-playground/blob/main/msdos330-setup.md)

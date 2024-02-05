@@ -79,4 +79,4 @@ Now quit the emulator and go on to the next step.
 
 # Next step
 
-[Now it's time to install Windows/386!](https://github.com/retro-speccy/Windows386-playground/win211386-setup)
+[Now it's time to install Windows/386!](https://github.com/retro-speccy/Windows386-playground/blob/main/win211386-setup.md)
